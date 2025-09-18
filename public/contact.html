@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact MindWorth | Get in Touch</title>
+  <meta name="description" content="Get in touch with MindWorth’s AI consulting team. Reach out via phone, email or our contact form to discuss your AI project.">
+  <link rel="canonical" href="https://mindworth.com/contact.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact MindWorth",
+    "description": "Contact information and inquiry form for MindWorth’s AI consulting services.",
+    "publisher": {"@type": "Organization", "name": "MindWorth"}
+  }
+  </script>
+  <link rel="preload" href="/assets/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/assets/css/styles.css"></noscript>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header>
+    <div id="site-header"></div>
+  </header>
+  <main id="main-content">
+    <section class="contact-hero">
+      <h1>How can you contact MindWorth?</h1>
+      <p>We'd love to hear from you! Use the form below to send us a message, or reach out via phone or email.</p>
+    </section>
+    <section class="contact-details">
+      <h2>What are our contact details?</h2>
+      <p>Phone: <a href="tel:+12146935750">(214) 693‑5750</a></p>
+      <p>Email: <a href="mailto:info@mindworth.com">info@mindworth.com</a></p>
+    </section>
+    <section class="contact-form-section">
+      <h2>Ready to send us a message?</h2>
+      <form id="contact-form" class="contact-form" novalidate data-schema-type="ContactForm">
+        <div class="form-group">
+          <label for="name" class="required">Full Name</label>
+          <input type="text" id="name" name="name" required aria-describedby="name-error">
+          <div id="name-error" class="error-message" role="alert" aria-live="polite"></div>
+        </div>
+        <div class="form-group">
+          <label for="email" class="required">Email Address</label>
+          <input type="email" id="email" name="email" required aria-describedby="email-error">
+          <div id="email-error" class="error-message" role="alert" aria-live="polite"></div>
+        </div>
+        <div class="form-group">
+          <label for="message" class="required">Your Message</label>
+          <textarea id="message" name="message" rows="5" required aria-describedby="message-error"></textarea>
+          <div id="message-error" class="error-message" role="alert" aria-live="polite"></div>
+        </div>
+        <!-- Honeypot field to deter bots -->
+        <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+        <button type="submit" class="btn-primary">
+          <span class="button-text">Send Message</span>
+          <span class="spinner" hidden aria-hidden="true"></span>
+        </button>
+        <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div id="site-footer"></div>
+  </footer>
+  <script type="module" src="/assets/js/header.js" defer></script>
+  <script type="module" src="/assets/js/nav.js" defer></script>
+  <script type="module" src="/assets/js/footer.js" defer></script>
+  <script type="module" src="/assets/js/form-handler.js" defer></script>
+  <script type="module" src="/assets/js/analytics.js" defer></script>
+</body>
+</html>

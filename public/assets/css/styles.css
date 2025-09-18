@@ -1,0 +1,10 @@
+/*
+  Compiled CSS for the MindWorth website.
+  This file imports design tokens and base styles from the source
+  directory. In a full build process, tools like PostCSS would
+  process this file; for now it simply imports the source files.
+*/
+
+@import url('../../../src/css/theme.css');
+@import url('../../../src/css/styles.css');
+@import url('../../../src/css/utilities.css');

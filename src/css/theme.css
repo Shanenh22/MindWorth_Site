@@ -1,0 +1,56 @@
+/*
+  Theme Design Tokens
+  Generated based on MindWorth brand colors.
+  These custom properties provide a consistent palette and scale
+  for spacing, typography and layering throughout the project.
+*/
+
+:root {
+  /* Primary brand colors */
+  --color-primary: #1E40AF;
+  --color-primary-dark: #193695; /* slightly darker variant */
+  --color-primary-light: #4B66BF; /* lighter variant for backgrounds */
+  --color-secondary: #0F766E; /* complementary secondary color */
+  --color-accent: #F59E0B; /* accent color for highlights */
+
+  /* Neutral palette */
+  --color-neutral-50: #fafafa;
+  --color-neutral-100: #f5f5f5;
+  --color-neutral-200: #e5e5e5;
+  --color-neutral-300: #d4d4d4;
+  --color-neutral-400: #a3a3a3;
+  --color-neutral-500: #737373;
+  --color-neutral-600: #525252;
+  --color-neutral-700: #404040;
+  --color-neutral-800: #262626;
+  --color-neutral-900: #171717;
+
+  /* Spacing scale */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* Typography scale */
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+
+  /* Z-index scale */
+  --z-nav: 1000;
+  --z-overlay: 1001;
+  --z-drawer: 1002;
+  --z-sticky-cta: 1003;
+  --z-modal: 1004;
+
+  /* Breakpoints */
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+}

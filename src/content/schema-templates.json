@@ -1,0 +1,20 @@
+{
+  "Organization": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "MindWorth",
+    "url": "https://mindworth.com",
+    "logo": "/assets/images/logo.svg",
+    "telephone": "+12146935750",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "McKinney",
+      "addressRegion": "TX"
+    }
+  },
+  "Service": {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "AI Consulting"
+  }
+}

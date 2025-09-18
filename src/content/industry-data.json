@@ -1,0 +1,27 @@
+{
+  "businessName": "MindWorth",
+  "industry": "AI Business Consulting",
+  "location": "McKinney, TX",
+  "services": [
+    {
+      "id": "strategy",
+      "title": "AI Strategy & Roadmap Development",
+      "description": "Comprehensive assessment and implementation planning to align AI initiatives with business goals."
+    },
+    {
+      "id": "training",
+      "title": "AI Implementation Training",
+      "description": "Hands-on workshops for teams and leadership to build AI literacy and confidence."
+    },
+    {
+      "id": "integration",
+      "title": "Custom AI Integration Consulting",
+      "description": "Tool selection, data preparation and process optimization tailored to your workflows."
+    },
+    {
+      "id": "support",
+      "title": "Ongoing AI Support & Mentoring",
+      "description": "Monthly check-ins, model monitoring and advanced training to ensure continuous improvement."
+    }
+  ]
+}
